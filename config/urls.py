@@ -16,6 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from taskboard.views import index, carrinho
+
 urlpatterns = [
     path("admin/", admin.site.urls),
+    path("", index),
+    path("carrinho", carrinho),
 ]
