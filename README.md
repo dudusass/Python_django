@@ -1,6 +1,6 @@
 # Orientações
 <details>
-  <summary><strong>⚠ Antes de começar a desenvolver</strong></summary><br />
+  <summary><strong>⚠ Antes de começar a utilizar</strong></summary><br />
 
   1. Clone o repositório
 
@@ -15,3 +15,5 @@
   3. Instale as dependências
 
   - `python3 -m pip install -r dev-requirements.txt`
+
+  4. Utilize o multi-task
