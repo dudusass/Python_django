@@ -6,7 +6,7 @@ class Board(models.Model):
   def __str__(self):
     return self.title
 
-class Tasks(models.Model):
+class Task(models.Model):
   status_list = [
     ('Pending','Pending'),
     ('Doing','Doing'),

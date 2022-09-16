@@ -1,6 +1,6 @@
 from asyncio import Task
 from django.contrib import admin
-from .models import Board, Tasks
+from .models import Board, Task
 
 admin.site.register(Board)
-admin.site.register(Tasks)
+admin.site.register(Task)
